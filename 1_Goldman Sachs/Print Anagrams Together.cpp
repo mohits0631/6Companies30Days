@@ -12,31 +12,16 @@ class Solution
 public:
     vector<vector<string>> Anagrams(vector<string> &string_list)
     {
-        map<string, int> mp;
-        vector<string> sorted_strings;
-
+        map<string, vector<string>> mp;
         for (auto &s : string_list)
         {
             string curr = s;
             sort(curr.begin(), curr.end());
-            sorted_strings.push_back(curr);
-            mp[curr] = 1;
+            mp[curr].push_back(s);
         }
-
-        int n = string_list.size();
-        // code here
         vector<vector<string>> res;
-
         for (auto itr = mp.begin(); itr!= mp.end(); itr++)
-        {
-            vector<string> grp;
-            for (int j = 0; j < n; j++)
-                if (itr->first == sorted_strings[j])
-                {
-                    grp.push_back(string_list[j]);
-                }
-            res.push_back(grp);
-        }
+            res.push_back(itr->second);
         return res;
     }
 };
@@ -70,3 +55,31 @@ int main()
     return 0;
 }
 // } Driver Code Ends
+/* ----------------------------------- LONGER SOLUTION JUST LIKE THE GIVEN ONE ------------------------------------
+        //         map<string, int> mp;
+//         vector<string> sorted_strings;
+
+//         for (auto &s : string_list)
+//         {
+//             string curr = s;
+//             sort(curr.begin(), curr.end());
+//             sorted_strings.push_back(curr);
+//             mp[curr] = 1;
+//         }
+
+//         int n = string_list.size();
+//         // code here
+//         vector<vector<string>> res;
+
+//         for (auto itr = mp.begin(); itr!= mp.end(); itr++)
+//         {
+//             vector<string> grp;
+//             for (int j = 0; j < n; j++)
+//                 if (itr->first == sorted_strings[j])
+//                 {
+//                     grp.push_back(string_list[j]);
+//                 }
+//             res.push_back(grp);
+//         }
+//         return res;
+     */
