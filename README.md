@@ -14,7 +14,7 @@
 #### Company Name : Goldman Sachs
 
 :white_check_mark: 1. Given an array of strings, return all groups of strings that are anagrams.<a href="https://practice.geeksforgeeks.org/problems/print-anagrams-together/1/">Link</a><br>
-- [ ] 2. Overlapping rectangles <a href="https://practice.geeksforgeeks.org/problems/overlapping-rectangles1924/1/">Link</a><br>
+:white_check_mark: 2. Overlapping rectangles <a href="https://practice.geeksforgeeks.org/problems/overlapping-rectangles1924/1/">Link</a><br>
 :white_check_mark: 3. Count the subarrays having product less than k <a href="https://practice.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1/">Link</a><br>
 :white_check_mark: 4. Given a string, Your task is to  complete the function encode that returns the run length encoded string for the given string. eg if the input string is “wwwwaaadexxxxxx”, then the function should return “w4a3d1e1x6″.(Modified version of question named Cute Monkeys) <a href="https://practice.geeksforgeeks.org/problems/run-length-encoding/1/">Link</a><br>
 :white_check_mark: 5. Program to find Nth Ugly Number. <a href="https://practice.geeksforgeeks.org/problems/ugly-numbers2254/1/">Link</a><br>
@@ -49,7 +49,7 @@
 - [ ] 8.Count ways to N'th Stair(Order does not matter)<a href="https://practice.geeksforgeeks.org/problems/count-ways-to-nth-stairorder-does-not-matter1322/1/">Link</a><br>
 - [ ] 9.Which among them forms a perfect Sudoku Pattern ?<a href="https://practice.geeksforgeeks.org/problems/is-sudoku-valid4820/1/">Link</a><br>
 - [ ] 10.Nuts and Bolts Problem<a href="https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1">Link</a><br>
-- [ ]11.Tree Serialization and Deserialization<a href="https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1">Link</a><br>
+- [ ] 11.Tree Serialization and Deserialization<a href="https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1">Link</a><br>
 - [ ] 12.Column name from a given column number<a href="https://practice.geeksforgeeks.org/problems/column-name-from-a-given-column-number4244/1/">Link</a><br>
 - [ ] 13.Rotten Oranges -Multiple Repetitions<a href="https://leetcode.com/problems/rotting-oranges/">Link</a><br>
 - [ ] 14.Tree Burning <a href="https://practice.geeksforgeeks.org/problems/burning-tree/1/">Link</a><br>
